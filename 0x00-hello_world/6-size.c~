@@ -1,0 +1,21 @@
+/* this file prints the size of the various types */
+
+/**
+ *main - this is the entry point of the function
+ *
+ *sizeof - prints the size of the specified type
+ *
+ *Return: Always 0
+ */
+
+int main(void)
+{
+	char c;
+	sizeof(c);
+	sizeof(int);
+	sizeof(long int);
+	sizeof(long long int);
+	sizeof(float);
+
+	return (0);
+}
