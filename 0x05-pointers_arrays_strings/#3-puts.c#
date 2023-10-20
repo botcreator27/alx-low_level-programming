@@ -1,7 +1,0 @@
-/* print a string */
-
-/**
- *_puts(char *str) - prints the string specified
- *@str - string specified
- *
- *Return: void
