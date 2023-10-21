@@ -1,9 +1,9 @@
 /* task 3 */
 /**
  *_strlen - prints length of string
- *@s - string
+ *@s: string
  *
- *Return - the length
+ *Return: the length
  */
 
 #include "main.h"
@@ -14,6 +14,6 @@ int _strlen(char *s)
 	int count = 0;
 
 	for (i = 0; s[i]; i++)
-		count ++;
+		count++;
 	return (count);
 }
