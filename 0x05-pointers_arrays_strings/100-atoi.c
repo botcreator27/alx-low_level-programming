@@ -1,4 +1,4 @@
-/* here, a tring becomes an integer */
+ /* here, a tring becomes an integer */
 /**
  *_atoi - converts the string to an integer
  *@s: this is the pointer
@@ -6,11 +6,13 @@
  *Return: 0
  */
 
+#include "main.h"
+
 int _atoi(char *s)
 {
 	int c = 0;
 	unsigned int ni = 0;
-	int min;
+	int min = 1;
 	int isi = 0;
 
 	while (s[c])
