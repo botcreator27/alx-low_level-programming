@@ -2,8 +2,8 @@
 
 /**
  *swap_int - swaps the values a and b
- *@a - first value
- *@b - second value
+ *@a: first value
+ *@b: second value for swap
  *
  *Return: void always
  */
