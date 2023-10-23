@@ -1,0 +1,19 @@
+/* search a string */
+/**
+ *_strpbrk - locates a string
+ *@s: string
+ *@accept: string 2
+ *
+ *Return: always 0
+ */
+
+int main(void)
+{
+	char *s = "hello, world";
+	char *f = "world";
+	char *t;
+
+	t = _strpbrk(s, f);
+	printf("%\n", t);
+	return (0);
+}
