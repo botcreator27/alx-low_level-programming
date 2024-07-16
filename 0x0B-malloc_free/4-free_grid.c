@@ -5,7 +5,7 @@
  * free_grid - frees memory
  * @grid: address of grid
  * @height: height of grid
- * 
+ *
  * Return: void (nothing)
  */
 
