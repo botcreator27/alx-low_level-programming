@@ -1,12 +1,12 @@
 #ifndef DOG_H
 #define DOG_H
 
-/*
- * dog - carries dog data
+/**
+ * struct dog - carries dog data
  * @name: name
- * @age; age
+ * @age: age
  * @owner: dog owner
- * 
+ *
  * Description - dog data
  *
  */
