@@ -2,7 +2,7 @@
 
 /*
  * main - displays the file compiled from
- * Return: filename
+ * Return: always 0
  */
 
 int main(void)
