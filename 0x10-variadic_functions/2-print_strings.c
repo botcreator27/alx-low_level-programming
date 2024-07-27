@@ -3,8 +3,8 @@
 #include <stdarg.h>
 
 /**
- * print_string - prints strings followed by a new line
- * @seperator: string to be printed between strings
+ * print_strings - prints strings followed by a new line
+ * @separator: string to be printed between strings
  * @n: number of arguments passed
  *
  */
@@ -16,12 +16,13 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	unsigned int i;
 
 	va_start(string, n);
+
 	for (i = 0; i < n; i++)
 	{
 	str = va_arg(string, char *);
 
-	if (string == NULL)
-	printf ("(nil)");
+	if (str == NULL)
+	printf("(nil)");
 	else
 	printf("%s", str);
 
